@@ -2,20 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.5</TargetFramework>
-    <ProjectGuid>{0a942080-d4bf-41f4-9b43-11abcb360ced}</ProjectGuid>
+    <ProjectGuid>{4ef0eda7-0349-4a4c-8b53-b1c5cc36c079}</ProjectGuid>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="MEH.COSMOSBoot.Cosmos" />
+    <None Remove="HardwareBoot.Cosmos" />
   </ItemGroup>
   
   <ItemGroup>
     <PackageReference Include="Cosmos.Debug.Kernel" Version="1.0.*" />
     <PackageReference Include="Cosmos.System" Version="1.0.*" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <ProjectReference Include="..\Hardware\Hardware.csproj" />
   </ItemGroup>
 
 </Project>
